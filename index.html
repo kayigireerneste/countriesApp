@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="view all countries and regions" />
+    <meta name="keywords" content="country, region and descriptions" />
+    <meta name="author" content="erneste" />
+    <title>rest countries app</title>
+    <link rel="stylesheet" href="./others/style.css" />
+    <script
+      src="https://kit.fontawesome.com/744fa18e3f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Where in the world?</h1>
+      <button class="toggle"><i class="far fa-moon"></i> Dark Mode</button>
+    </div>
+    <div class="container">
+      <div class="form-control">
+        <i class="fa fa-search" id="searchClick"></i>
+        <input
+          type="text"
+          id="searchBTN"
+          placeholder="Search For a Country..."
+        />
+      </div>
+      <div class="dropDownCon">
+        <div class="dropDown">
+          <p>Filter By Region</p>
+          <button><i class="fas fa-chevron-down"></i></button>
+        </div>
+        <div class="drop showDropDown">
+          <p>Africa</p>
+          <p>America</p>
+          <p>Asia</p>
+          <p>europe</p>
+          <p>oceania</p>
+        </div>
+      </div>
+    </div>
+    <div class="countries" id="countries"></div>
+
+    <script src="./others/main.js"></script>
+  </body>
+</html>
